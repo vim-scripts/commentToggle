@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=2431
+
+A little script for toggling commenting on a per line basis:
+ toggling means that commenting is turned on and off with one shortcut ("\;" by default), and
+ per line basis means that it only uses single line comments (greater flexibility).
+
+In theory, should work for all filetypes; in practice it probably won't. As of version 0.1, definitions are included for 56 languages, and for all the others, it attempts to guess the comment symbol.
